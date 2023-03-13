@@ -47,7 +47,7 @@ export default function App() {
         /> 
 
       <TextInput style={{fontSize:18, width:200}}
-        placeholder='haku'
+        placeholder='Haku'
         onChangeText={text => setKeyword(text) }
         value={keyword} />
 
