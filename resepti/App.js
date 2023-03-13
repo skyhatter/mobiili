@@ -17,17 +17,6 @@ export default function App() {
 
     });}
 
-  const renderItem = ({ item }) => {
-    return(
-      <View>
-        <Image source={{uri: item.strMealThumb}}></Image>
-        <View>
-          <Text> { item.strMeal } </Text>
-        </View>
-      </View>
-    )
-  }
-
   const listSeparator = () => <View
     style={{
       height: 1,
