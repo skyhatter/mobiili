@@ -18,7 +18,7 @@ export default function App() {
         onChangeText={text => setText(text)}
         value={text}
       ></TextInput>
-      <Button title="Press to hear text" onPress={speak} />
+      <Button title="Press to hear text!" onPress={speak} />
     </View>
   );
 }
